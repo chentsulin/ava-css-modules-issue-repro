@@ -1,0 +1,16 @@
+{
+	"presets": ["es2015", "react"],
+	"env": {
+		"test": {
+      "plugins": [
+        [
+          "webpack-loaders",
+          {
+            "config": "${CONFIG}",
+            "verbose": false
+          }
+        ]
+      ]
+    }
+  }
+}
